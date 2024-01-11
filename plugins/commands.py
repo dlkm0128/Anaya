@@ -25,10 +25,10 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('🧑‍💻 Oᴡɴᴇʀ', callback_data= "owner_info"),
-                    InlineKeyboardButton('🌿 Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', callback_data='money_bot')
+                    InlineKeyboardButton('🧑‍💻 𝐎𝐰𝐧𝐞𝐫', callback_data= "owner_info"),
+                    InlineKeyboardButton('🎬 𝐌𝐨𝐯𝐢𝐞𝐬 𝐆𝐫𝐨𝐮𝐩', callback_data='GRP_LNK')
                  ],[
-                    InlineKeyboardButton('💰 Eᴀʀɴ Mᴏɴᴇʏ Wɪᴛʜ Mᴇ 💸', callback_data="shortlink_info")
+                    InlineKeyboardButton('💰 𝐁𝐮𝐲 𝐓𝐨 𝐏𝐫𝐞𝐦𝐢𝐮𝐦 💸', callback_data="shortlink_info")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply(script.START_TXT.format(message.from_user.mention if message.from_user else message.chat.title, temp.U_NAME, temp.B_NAME), reply_markup=reply_markup, disable_web_page_preview=True)
@@ -45,13 +45,13 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                  ],[
-                    InlineKeyboardButton('🧑‍💻 Oᴡɴᴇʀ', callback_data= "owner_info"),
-                    InlineKeyboardButton('🌿 Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', callback_data='money_bot')
+                    InlineKeyboardButton('🧑‍💻 𝐎𝐰𝐧𝐞𝐫', callback_data= "owner_info"),
+                    InlineKeyboardButton('🎬 𝐌𝐨𝐯𝐢𝐞𝐬 𝐆𝐫𝐨𝐮𝐩', callback_data='GRP_LNK')
                  ],[
-                    InlineKeyboardButton('👻 Hᴇʟᴘ', callback_data='help'),
-                    InlineKeyboardButton('👾 Aʙᴏᴜᴛ', callback_data='about')
+                    InlineKeyboardButton('ℹ 𝐇𝐞𝐥𝐩', callback_data='help'),
+                    InlineKeyboardButton('📚 𝐀𝐛𝐨𝐮𝐭', callback_data='about')
                  ],[
-                    InlineKeyboardButton('💰 Eᴀʀɴ Mᴏɴᴇʏ Wɪᴛʜ Mᴇ 💸', callback_data="shortlink_info")
+                    InlineKeyboardButton('💰 𝐁𝐮𝐲 𝐓𝐨 𝐏𝐫𝐞𝐦𝐢𝐮𝐦 💸', callback_data="shortlink_info")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         m=await message.reply_sticker("CAACAgUAAxkBAAIhuGTHNIDjN6W-9OgK2xPXQSiDYpm-AAIFAgACD_PRVn7ikCL5fe76HgQ") 
@@ -96,13 +96,13 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                  ],[
-                    InlineKeyboardButton('🧑‍💻 Oᴡɴᴇʀ', callback_data= "owner_info"),
-                    InlineKeyboardButton('🌿 Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', callback_data='money_bot')
+                    InlineKeyboardButton('🧑‍💻 𝐎𝐰𝐧𝐞𝐫', callback_data= "owner_info"),
+                    InlineKeyboardButton('🎬 𝐌𝐨𝐯𝐢𝐞𝐬 𝐆𝐫𝐨𝐮𝐩', callback_data='GRP_LNK')
                  ],[
-                    InlineKeyboardButton('👻 Hᴇʟᴘ', callback_data='help'),
-                    InlineKeyboardButton('👾 Aʙᴏᴜᴛ', callback_data='about')
+                    InlineKeyboardButton('ℹ 𝐇𝐞𝐥𝐩', callback_data='help'),
+                    InlineKeyboardButton('📚 𝐀𝐛𝐨𝐮𝐭', callback_data='about')
                  ],[
-                    InlineKeyboardButton('💰 Eᴀʀɴ Mᴏɴᴇʏ Wɪᴛʜ Mᴇ 💸', callback_data="shortlink_info")
+                    InlineKeyboardButton('💰 𝐁𝐮𝐲 𝐓𝐨 𝐏𝐫𝐞𝐦𝐢𝐮𝐦 💸', callback_data="shortlink_info")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)      
         await message.reply_photo(
@@ -153,7 +153,7 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton('🍁 Uᴘᴅᴀᴛᴇ', url=f'https://t.me/hbbotz')
+                          InlineKeyboardButton('🍁 Uᴘᴅᴀᴛᴇ', url=f'https://t.me/TamilRockerz_TR')
                          ]
                         ]
                     )
@@ -169,7 +169,7 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton('🍁 Uᴘᴅᴀᴛᴇ', url=f'https://t.me/hbbotz')
+                          InlineKeyboardButton('🍁 Uᴘᴅᴀᴛᴇ', url=f'https://t.me/TamilRockerz_TR')
                          ]
                         ]
                     )
@@ -330,7 +330,7 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                      [
-                      InlineKeyboardButton('🍁 Uᴘᴅᴀᴛᴇ', url=f'https://t.me/hbbotz')
+                      InlineKeyboardButton('🍁 Uᴘᴅᴀᴛᴇ', url=f'https://t.me/TamilRockerz_TR')
                      ]
                     ]
                 )
@@ -389,7 +389,7 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                      [
-                      InlineKeyboardButton('🍁 Uᴘᴅᴀᴛᴇ', url=f'https://t.me/hbbotz')
+                      InlineKeyboardButton('🍁 Uᴘᴅᴀᴛᴇ', url=f'https://t.me/TamilRockerz_TR')
                      ]
                     ]
                 )
@@ -446,7 +446,7 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
              [
-              InlineKeyboardButton('🍁 Uᴘᴅᴀᴛᴇ', url=f'https://t.me/hbbotz')
+              InlineKeyboardButton('🍁 Uᴘᴅᴀᴛᴇ', url=f'https://t.me/TamilRockerz_TR')
              ]
             ]
         )
